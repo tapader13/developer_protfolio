@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primary_color {
+    color: rgb(253, 110, 10);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: rgb(253, 110, 10);
+    padding: 10px 15px 10px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button_border {
+    border-radius: 5px;
+    color: rgb(253, 110, 10);
+    font-family: Open Sans;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color: transparent;
+    border: 1px solid rgb(253, 110, 10);
+    padding: 10px 15px 10px 15px;
+
+    outline: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100vw;
+    height: 802px;
+    background: rgb(255, 248, 243);
+    background-image: url("images/developer.png"), url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: 50px 20px, bottom right;
+}
+
+nav {
+    padding-inline: 216px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 48px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav h1 {
+    font-family: Open Sans;
+    font-size: 43.2px;
+    font-weight: 800;
+    line-height: 58.5px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 216px;
+    padding-right: 30px;
+}
+
+.hero_left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero_left_content h6 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero_left_content h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 73px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.hero_left_content p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.hero_left_content .btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btns button {
+    border-radius: 5px;
+}
+
+.hero_right {
+    width: 560px;
+    height: 649px;
+}
+
+.hero_right img {
+    width: 100%;
+    height: 100%;
+}
+
+.about {
+    width: 1094px;
+    height: 528px;
+    margin-block: 130px;
+    margin-inline: auto;
+    border-radius: 10px;
+
+    background: rgb(255, 248, 243);
+}
+
+.about_content {
+    width: 794px;
+    height: 276px;
+}
+
+.about_content h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about_content p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-block: 30px;
+}
+
+.about_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_footer div h6:nth-child(1) {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(117, 117, 117);
+}
+
+.about_footer div h6:nth-child(2) {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.skills {
+    width: 1094px;
+    margin-inline: auto;
+
+}
+
+.skills>h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.skills>p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.skill_container {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.skill_container div {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.skill_container div h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.skill_container div p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.resume {
+    margin-block: 120px;
+    margin-inline: auto;
+    width: 1094px;
+}
+
+.resume h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.digree_parts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_degree h3 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.left_degree_content h4 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.left_degree_content h6 {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.left_degree_content p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-block: 20px;
+}
+
+.btn_div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+hr {
+    color: rgb(209, 209, 209);
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 110px;
+    background: rgb(255, 248, 243);
+
+
+}
+
+.footer_container {
+    margin-inline: auto;
+    width: 1094px;
+    padding-block: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_footer h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.left_footer p {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-block: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+
+.right_footer input[type="text"] {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    margin-block: 15px;
+    width: 442.5px;
+    padding: 15px 20px;
+}
+
+.right_footer textarea {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    margin-block: 15px;
+    width: 442.5px;
+    padding: 15px 20px;
+}
+
+.right_footer button {
+    margin-top: 10px;
+}
+
+.button span,
+.button_border span {
+
+    margin-inline: 5px;
+}
